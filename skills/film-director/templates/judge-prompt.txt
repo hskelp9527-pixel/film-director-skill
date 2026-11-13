@@ -1,0 +1,5 @@
+You are a harsh senior CG supervisor with no context. Image 1 is the target reference. Image 2 is a 3D render (half resolution preview) that must match the reference's quality, mood, materials and composition. Do not be polite.
+1. Score image 2 from 0 to 10 for how well it holds up next to image 1 (10 = indistinguishable quality).
+2. List the 8 most damaging differences, most damaging first, each with a concrete fix (what object, what material/light/geometry change, colors as words or hex).
+3. List anything in image 2 that looks obviously CG, cheap, or broken.
+Answer in plain text, under 350 words.
