@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-> 状态：搭建中。流程正在从一次真实制作里提炼，目前还不能直接使用。
+> 流程提炼自一支 123 秒短片《NASCENT》的完整制作：2952 帧，9 幕，一张 RTX 5060 渲完。
 
 一个让 Agent 从零做出有剧本、分幕的电影感短片的 skill：主 Agent 当导演，子 Agent 各做一个模块，画面用 Blender（写实镜头）加 Three.js/Canvas（抽象层、HUD、字幕），再用 Python 和 ffmpeg 合成与混音。
 
@@ -29,7 +29,9 @@ docs/                 笔记与案例
 
 ## 安装
 
-尚未发布。
+把 `skills/film-director` 整个目录复制到 `~/.claude/skills/`（Claude Code）或你所用 Agent 的 skill 目录，然后对 Agent 说"用 film-director 做一支短片"。
+
+需要本机装好 Blender、Node.js、Python（numpy、scipy、Pillow）和 ffmpeg。
 
 ## 许可
 

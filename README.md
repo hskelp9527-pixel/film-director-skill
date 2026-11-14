@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Status: scaffolding. The workflow is being extracted from a real production and is not usable yet.
+> Distilled from the full production of NASCENT, a 123-second short: 2,952 frames, 9 acts, rendered on one RTX 5060.
 
 An agent skill for making a scripted, multi-act cinematic short film end to end: one lead agent acts as the director, sub-agents build the modules, and the film is rendered with Blender (photoreal shots) + Three.js/Canvas (abstract layers, HUD, subtitles) + Python/ffmpeg (compositing and audio).
 
@@ -29,7 +29,9 @@ docs/                 notes and case studies
 
 ## Install
 
-Not published yet.
+Copy the `skills/film-director` folder into `~/.claude/skills/` (Claude Code) or your agent's skill directory, then tell the agent "use film-director to make a short film".
+
+Requires Blender, Node.js, Python (numpy, scipy, Pillow) and ffmpeg on the machine.
 
 ## License
 
